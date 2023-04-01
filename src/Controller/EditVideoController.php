@@ -35,6 +35,7 @@ class EditVideoController implements Controller
         $video = new Video($url, $titulo);
         $video->setId($id);
 
+        
         $success = $this->videoRepository->update($video);
 
         if ($success === false) {

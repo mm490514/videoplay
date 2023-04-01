@@ -44,7 +44,7 @@ class VideoRepository
         $statement = $this->pdo->prepare($sql);
 
         $statement->bindValue(':url', $video->url);
-        $statement->bindValue(':title', $video->url);
+        $statement->bindValue(':title', $video->title);
         $statement->bindValue(':id', $video->id, PDO::PARAM_INT);
 
         return $statement->execute();
