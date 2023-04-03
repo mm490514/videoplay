@@ -9,5 +9,6 @@ return [
     'GET|/editar-video' => \Mvc\Controller\VideoFormController::class,
     'POST|/editar-video' => \Mvc\Controller\EditVideoController::class,
     'GET|/remover-video' => \Mvc\Controller\DeleteVideoController::class,
-
+    'GET|/login' => \Mvc\Controller\LoginFormController::class,
+    'POST|/login' => \Mvc\Controller\LoginController::class,
 ];
