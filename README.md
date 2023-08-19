@@ -70,11 +70,3 @@ A aplicação utiliza um mecanismo simples de autenticação baseado em sessões
 ## Contribuições
 
 Contribuições para este projeto são bem-vindas! Se encontrar problemas ou tiver sugestões para melhorias, por favor, crie uma nova issue ou envie um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
----
-
-Sinta-se à vontade para personalizar este README de acordo com as especificidades do seu projeto. Certifique-se de substituir os espaços reservados pelas informações reais do projeto e URLs.
